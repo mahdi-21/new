@@ -13,4 +13,3 @@ let g = true;
 
 // console.log(-d * e); //2000
 // console.log(-d + -d - f + +g + g + +g); //173
-console.log(-(+d + f));
