@@ -7,4 +7,3 @@ function sort() {
   console.log(c);
 }
 console.log(sort());
-console.log(sort);
