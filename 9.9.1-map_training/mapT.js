@@ -1,15 +1,13 @@
-let sawppingCase = "maHdI";
+let swappingCase = "maHdI";
 let invertNumber = [1, 32, -6, -43, 54, 70, -4];
 let ignoreBoolean = "M2a3hd20i";
 
-let swap = sawppingCase
-  .split()
+let swap = swappingCase
+  .split("")
   .map(function (x) {
-    if (x === x.toUpperCase()) x.toLocaleLowerCase();
-    else x.toUpperCase();
-    return x;
+    return x === x.toLowerCase() ? x.toUpperCase() : x.toLowerCase();
   })
-  .join();
+  .join("");
 
 console.log(swap);
 
