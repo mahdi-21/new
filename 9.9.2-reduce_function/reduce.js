@@ -11,5 +11,5 @@ let number = numbers.reduce(function (acc, current, index, array) {
   console.log(acc + current);
   console.log("########");
   return acc + current;
-});
+}); // we can add an initial value , accumulator will be initial value and current will be accumulator.
 number;
